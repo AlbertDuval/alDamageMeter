@@ -1,12 +1,14 @@
 ﻿local T, C, L, _ = unpack(ShestakUI)
 
 -- Config start
-local anchor = "LEFT"
-local x, y = 23, 0
+local anchor = "BOTTOM"
 local barheight = 12
 local spacing = 7
-local maxbars = 7
-local width, height = 213, maxbars * (barheight + spacing) - spacing
+local maxbars = 6
+local width, height = 217, maxbars * (barheight + spacing) - spacing
+--local x, y = 23, 0
+-- Modif FM
+local x, y = -284, 15
 local maxfights = 10
 local reportstrings = 10
 local texture = C.media.texture
